@@ -3,8 +3,8 @@ var express = require('express');
 var PORT = 8080
 
 var app = express();
-app.get('/', function(req, res){
-  res.send('Hello Pehas!\n');
+app.get('/:name', function(req, res){
+  res.send('Hello ' + req.Params['name'] + '!\n');
 });
 
 app.listen(PORT);
