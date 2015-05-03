@@ -5,6 +5,7 @@
   "description": "node.js crm",
   "author": "Pavel Antonov <pehas@list.ru>",
   "dependencies":{
-    "express": "3.2.4"
+    "express": "3.2.4",
+    "ioredis": "1.1.3"
   }
 }
